@@ -1,0 +1,94 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.GeeksForGeeks {
+  background-image: 
+  url(
+"https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?cs=srgb&dl=pexels-ella-olsson-1640777.jpg&fm=jpg");
+  background-size:cover;
+  height: 100vh;
+  margin-top: -70px;
+  font-size:10px;
+  /* //background-repeat:no-repeat;  */
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.ycolor{
+  color: rgb(0, 0, 0);
+}
+.fontSize{
+  
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 500%;
+color: rgb(25, 119, 48);
+
+}
+.posLine{
+  font-size: 200%;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-style: inherit;
+  color: rgb(105, 168, 126);
+}
+.BrandPos{
+  font-size: 800%;
+   
+  margin-top: -18%;
+  
+  
+}
+.BrandNamePos{
+  margin-top: 25%;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 80%;
+  color: rgb(71, 42, 15);
+}
+.MainHeadingPosition{
+  margin-top:8%;
+}
+.crauselContent{
+  font-size: 500%;
+  color: rgb(36, 47, 61);
+  margin-top:-25%;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+.fontStyle{
+  font-family:cursive;
+  font-size: 500%;
+  margin-top:35%;
+}
